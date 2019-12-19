@@ -1,0 +1,83 @@
+{
+    "name": "TradeKing",
+    "description": "Log in to your Ally Invest account and manage your online stock and options trades. Gain access to research, tools, calculators, educational content, and more.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/263-tradeking.jpg",
+    "tags": [
+        "financial",
+        "financial data",
+        "financial services",
+        "have api",
+        "investing",
+        "market",
+        "marketplaces",
+        "social",
+        "stocks"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tradeking\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "TradeKing",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/263-tradeking.jpg",
+            "humanURL": "http:\/\/tradeking.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tradeking-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tradeking-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "https:\/\/api.tradeking.com\/"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/community.tradeking.com\/blogs"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/community.tradeking.com\/blogs.atom"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/tradeking"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/tradeking"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/developers.tradeking.com\/"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/developers.tradeking.com\/"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/tradeking"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/tradeking"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/tradeking.com"
+        }
+    ]
+}
