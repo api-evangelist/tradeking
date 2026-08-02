@@ -1,0 +1,20 @@
+# TradeKing
+
+> TradeKing was a US online brokerage offering self-directed trading of stocks and options, backed by Battery Ventures. It was acquired by Ally Financial in 2016 and rebranded as Ally Invest; the TradeKing developer API lives on as the Ally Invest API. tradeking.com now redirects to https://www.ally.com/invest/ and the historical API hosts (api.tradeking.com, developers.tradeking.com) no longer resolve.
+
+TradeKing pioneered a public brokerage API (the TradeKing API) that let developers manage self-directed accounts, place equity and options orders, stream real-time market quotes, and manage watchlists using OAuth 1.0. After the Ally Financial acquisition that surface was rebranded the Ally Invest API. This profile is maintained by API Evangelist as a historical record; the live successor is profiled separately.
+
+## Successor
+
+- [Ally Invest](https://www.ally.com/invest/): Successor brand after the 2016 Ally Financial acquisition
+- [Ally Invest API profile (API Evangelist)](https://raw.githubusercontent.com/api-evangelist/ally-invest/refs/heads/main/apis.yml): Live APIs.json profile of the successor API surface
+
+## Historical surfaces
+
+- [TradeKing GitHub organization](https://github.com/tradeking): Still online; one example app (node-watchlist, last pushed 2016)
+- [tradeking (npm, community)](https://www.npmjs.com/package/tradeking): Community Node wrapper for the historical API
+- [tradeking (RubyGems, community)](https://rubygems.org/gems/tradeking): Community Ruby wrapper for the historical API
+
+## Specs
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/tradeking/refs/heads/main/apis.yml): This company's machine-readable profile

@@ -1,22 +1,72 @@
 aid: tradeking
 name: TradeKing
-description: TradeKing is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  TradeKing was a US online brokerage offering commission-based self-directed trading of stocks
+  and options, backed by Battery Ventures. It pioneered one of the first public brokerage APIs,
+  letting developers manage accounts, place equity and options orders, stream real-time market
+  quotes, and manage watchlists over OAuth 1.0. TradeKing was acquired by Ally Financial in 2016
+  and rebranded as Ally Invest; its API surface lives on as the Ally Invest API (profiled
+  separately as ally-invest in this network). tradeking.com now redirects to ally.com/invest and
+  the historical API hosts no longer resolve. This profile is maintained as a historical record.
 url: https://raw.githubusercontent.com/api-evangelist/tradeking/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tradeking.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: acquired-defunct
+x-status: acquired
+x-acquired-by: ally-financial
+x-successor: ally-invest
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Brokerage
+- Trading
+- Investing
+- Stocks
+- Options
+- Acquired
 apis: []
+common:
+- type: DomainSecurity
+  url: security/tradeking-domain-security.yml
+- name: Website (redirects to Ally Invest)
+  type: Website
+  url: https://www.tradeking.com
+- name: TradeKing GitHub Organization
+  type: GitHubOrganization
+  url: https://github.com/tradeking
+- name: Community Packages
+  type: Packages
+  url: packages/tradeking-packages.yml
+- name: Well-Known Probe Index
+  type: WellKnown
+  url: well-known/tradeking-well-known.yml
+- name: LLMs.txt
+  type: LLMsTxt
+  url: llms/tradeking-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

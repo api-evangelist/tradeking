@@ -1,0 +1,52 @@
+generated: '2026-07-21'
+method: searched
+source: npm + PyPI + RubyGems + NuGet + Packagist + crates.io registry search
+note: >-
+  TradeKing was acquired by Ally Financial in 2016 and its API surface was rebranded
+  Ally Invest (see all/ally-invest/). No first-party TradeKing client libraries were
+  ever published to public registries; the packages below are community wrappers for
+  the historical TradeKing API, none updated since the rebrand. PyPI, NuGet,
+  Packagist, and crates.io returned no TradeKing packages.
+packages:
+  - language: javascript
+    registry: npm
+    name: tradeking
+    url: https://www.npmjs.com/package/tradeking
+    install: npm install tradeking
+    official: false
+    description: Node API for TradeKing
+  - language: javascript
+    registry: npm
+    name: tradeking-data
+    url: https://www.npmjs.com/package/tradeking-data
+    install: npm install tradeking-data
+    official: false
+    description: Node.js version of TradeKing's API for streaming/getting stock data
+  - language: javascript
+    registry: npm
+    name: rx-tradeking
+    url: https://www.npmjs.com/package/rx-tradeking
+    install: npm install rx-tradeking
+    official: false
+    description: Trading JS Api using RxJS
+  - language: javascript
+    registry: npm
+    name: trade-king-api
+    url: https://www.npmjs.com/package/trade-king-api
+    install: npm install trade-king-api
+    official: false
+    description: Abstraction for trade king api
+  - language: ruby
+    registry: rubygems
+    name: tradeking
+    url: https://rubygems.org/gems/tradeking
+    install: gem install tradeking
+    official: false
+    description: Ruby wrapper for a Tradeking API
+  - language: ruby
+    registry: rubygems
+    name: omniauth-tradeking
+    url: https://rubygems.org/gems/omniauth-tradeking
+    install: gem install omniauth-tradeking
+    official: false
+    description: TradeKing strategy for OmniAuth 1.0

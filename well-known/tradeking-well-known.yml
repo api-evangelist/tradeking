@@ -1,0 +1,37 @@
+generated: '2026-07-21'
+method: searched
+note: >-
+  TradeKing's web properties were absorbed by Ally Financial after the 2016
+  acquisition. Every path on www.tradeking.com (including the entire /.well-known/
+  surface) blanket-301-redirects to https://www.ally.com/invest/ — no TradeKing
+  discovery documents remain. The historical API hosts api.tradeking.com and
+  developers.tradeking.com no longer resolve (connection failed). No files were
+  saved because no probe returned 200.
+hosts:
+  - host: https://www.tradeking.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 301
+        redirect: https://www.ally.com/invest/
+      - path: /.well-known/openid-configuration
+        status: 301
+        redirect: https://www.ally.com/invest/
+      - path: /.well-known/oauth-authorization-server
+        status: 301
+        redirect: https://www.ally.com/invest/
+      - path: /.well-known/api-catalog
+        status: 301
+        redirect: https://www.ally.com/invest/
+      - path: /.well-known/ai-plugin.json
+        status: 301
+        redirect: https://www.ally.com/invest/
+  - host: https://api.tradeking.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 0
+        note: connection failed — host no longer resolves
+  - host: https://developers.tradeking.com
+    documents:
+      - path: /
+        status: 0
+        note: connection failed — host no longer resolves
