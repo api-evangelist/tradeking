@@ -9,6 +9,17 @@ description: >-
   separately as ally-invest in this network). tradeking.com now redirects to ally.com/invest and
   the historical API hosts no longer resolve. This profile is maintained as a historical record.
 url: https://raw.githubusercontent.com/api-evangelist/tradeking/refs/heads/main/apis.yml
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
