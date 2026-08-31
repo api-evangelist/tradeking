@@ -54,6 +54,11 @@ tags:
 - Acquired
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/ally-financial/
+  name: Ally Financial
+  x-relationship: acquired
+  x-evidence: "TradeKing was acquired by Ally Financial in 2016 and rebranded as Ally Invest; its API surface lives on as the Ally Invest API (profiled separately as ally-invest in this network)."
 - type: DomainSecurity
   url: security/tradeking-domain-security.yml
 - name: Website (redirects to Ally Invest)
